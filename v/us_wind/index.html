@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <title>drd</title>
+  <link rel="icon" href="/favicon.png">
+<link href="style.bundle.css" rel="stylesheet"></head>
+
+<!--
+Datasets:
+http://www2.census.gov/library/publications/2006/compendia/smadb06/tableA/TableA-01.xls?#
+-->
+<div class="main-container">
+  <div class="drdthing"> (A <a href="https://drio.org">drio</a> thing.)  </div>
+	<div class="intro"> 
+		<p> This is a visualization for the dataset from this <a href="https://data.world/makeovermonday/2019w8">make over monday</a> challenge. It is data related to the amount of power generated using wind technology by the different US states.
+		</p>
+		<p> I added some extra data to see how the population and area of a state change with the other variables provided in the challenge.
+		</p>
+		<p> I find the parallel plot very effective to explain this dataset. Thank you to the developers of <a href="https://github.com/syntagmatic/parallel-coordinates">d3.parcoords.js</a>. Thanks to them, I didn't have to code this visualization from scratch. You guys did a great job with the API also.
+		</p>
+		<p>This viz was also a good opportunity to explor brushing and zooming. Two interaction techniques I believe work well in this context. Feel free to zoom in the dotplots and brush along the axis in the parallel plot.</p>
+	</div>
+	<div class="button-container"> <button>reset</button></div>
+  <div id="dotplot1"></div>
+  <div id="dotplot2"></div>
+  <div id="dotplot3"></div>
+  <div id="pc-plot" class="parcoords"></div>
+</div>
+<script type="text/javascript" src="app.bundle.js"></script>

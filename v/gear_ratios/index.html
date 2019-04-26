@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+  <head>
+    <title>drd</title>
+  <link href="style.bundle.css" rel="stylesheet"></head>
+  <body>
+    <div id="main-container">
+
+      <div class="intro-columns"></div>
+      <div id="intro">
+        <h3>Visualizing bike gear ratios</h3>
+        <p>
+
+          Bike gear <a
+          href="https://cyclingtips.com/2017/11/understanding-bicycle-gear-ratios-why-they-matter/">ratios</a>
+          are an important factor when selecting your <a
+          href="https://cyclingtips.com/2018/05/how-to-handle-a-custom-bike-build-2/">groupset</a>.
+          They give you the necessary information to select a <a
+          href="https://www.rei.com/learn/expert-advice/change-bike-cassette.html">cassette</a>
+          and <a
+          href="https://www.rei.com/learn/expert-advice/change-bike-chainrings.html">chainrings</a> appropriate
+          for your type of riding.
+          </p>
+
+          <p> 
+          It is hard to extract meaningful information from the raw numbers
+          so I decided to visualize them instead.  The dataset here are the
+          cassette cogs and chainrings for my bikes. This could be modified
+          easily to render dynamic datasets. <a href="https://drio.org">Contact
+          me</a> if you have questions.  
+          </p> 
+
+      </div>
+      <div class="intro-columns"></div>
+
+      <div id="photos">
+        <img src="src/assets/cassette.jpeg">
+        <img src="src/assets/chainring.png">
+        <img src="src/assets/drivetrain.png">
+      </div>
+
+      <div id="top-label" class="label">Roll Out (Meters) </div> 
+
+      <div id="column-right" class="bike-label-column left-column">
+        <div class="axis"></div>
+        <div id="bike-names-container-left"></div>
+        <div class="axis"></div>
+      </div>
+
+      <div id="viz-container">
+        <div id="axis-top" class="axis axis-top"></div>
+        <div id="viz0" class="viz"></div>
+        <div id="viz1" class="viz"></div>
+        <div id="viz2" class="viz"></div>
+        <div id="viz3" class="viz"></div>
+        <div id="axis-bottom" class="axis"></div>
+      </div> 
+
+      <div id="column-right" class="bike-label-column right-column">
+        <div class="axis"></div>
+        <div id="bike-names-container-right"></div>
+        <div class="axis"></div>
+      </div>
+
+      <div id="bottom-label" class="label">Roll Out (Meters) </div> 
+
+    </div>
+  <script type="text/javascript" src="app.bundle.js"></script></body>
+</html>

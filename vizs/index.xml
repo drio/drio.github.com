@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vizs on My New Hugo Site</title>
+    <link>https://drio.org/vizs/</link>
+    <description>Recent content in Vizs on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://drio.org/vizs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>D3 core functionality review</title>
+      <link>https://drio.org/vizs/d3-article-num1/</link>
+      <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/vizs/d3-article-num1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Viz Society signups</title>
+      <link>https://drio.org/vizs/datavizso/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/vizs/datavizso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Viz Society slack stats</title>
+      <link>https://drio.org/vizs/dvs-c2/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/vizs/dvs-c2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fibonacci</title>
+      <link>https://drio.org/vizs/fibonacci/</link>
+      <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/vizs/fibonacci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bike gear ratios</title>
+      <link>https://drio.org/vizs/gear_ratios/</link>
+      <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/vizs/gear_ratios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>US Wind Energy</title>
+      <link>https://drio.org/vizs/us_wind/</link>
+      <pubDate>Sun, 03 Dec 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/vizs/us_wind/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>US Flights</title>
+      <link>https://drio.org/vizs/us_flights/</link>
+      <pubDate>Thu, 02 Nov 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/vizs/us_flights/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IMDB movies dataset</title>
+      <link>https://drio.org/vizs/cse512-week2-movies/</link>
+      <pubDate>Tue, 02 Dec 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/vizs/cse512-week2-movies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Antibiotics after world war II</title>
+      <link>https://drio.org/vizs/antibiotics/</link>
+      <pubDate>Sun, 02 Nov 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/vizs/antibiotics/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,154 @@
+body {
+  background: white;
+  font: 16px/1.6em  Helvetica, sans-serif;
+  margin: 20px;
+  padding: 10px;
+	margin-bottom: 50px;
+}
+
+pre {
+	padding-left: 20px;
+	font-size: 14px;
+}
+
+.main-container {
+  margin: auto;
+  width: 900px;
+  position: relative;
+  padding-right: 250px;
+}
+
+#viz-histogram-container {
+  /*display: block;*/
+  /*padding: 10px;*/
+	display: flex;
+  flex-wrap: wrap;
+	flex-grow: 0;
+	justify-content: left;
+  border: 0px solid grey;
+	width: 900px;
+  margin-top: 0px;
+}
+
+.histogram-small {
+  border: 0px solid grey;
+	background: Aliceblue;
+	width: 270px;
+	margin: 5px;
+}
+
+#viz-dotplot-container {
+  /*display: block;*/
+  /*padding: 10px;*/
+	display: flex;
+  flex-wrap: wrap;
+	flex-grow: 1;
+	justify-content: center;
+  border: 0px solid grey;
+	width: 900px;
+  margin-top: 2px;
+}
+
+.dotplot-small {
+  border: 0px solid grey;
+	background:white;
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+}
+
+.heatmap-container {
+  /*display: block;*/
+  /*padding: 10px;*/
+	display: flex;
+  flex-wrap: wrap;
+	flex-grow: 1;
+	justify-content: center;
+  border: 0px solid grey;
+	width: 900px;
+	height: 500px;
+  margin-top: 2px;
+  background: white;
+}
+
+#viz-usvsworld-container {
+	display: flex;
+  flex-wrap: wrap;
+	flex-grow: 0;
+	justify-content: center;
+  /*display: block;*/
+  /*padding: 10px;*/
+  border: 0px solid grey;
+	width: 800px;
+  margin-top: 2px;
+}
+
+#viz-directors-info {
+  /*
+	display: flex;
+  flex-wrap: wrap;
+	flex-grow: 0;
+  */
+  font-size: 12px;
+	justify-content: center;
+  /*display: block;*/
+  /*padding: 10px;*/
+  background: LavenderBlush;
+  border: 0px solid grey;
+	width: 700px;
+  height: 50px;
+  margin-top: 2px;
+}
+
+#viz-directors {
+	display: flex;
+  flex-wrap: wrap;
+	flex-grow: 0;
+	justify-content: center;
+  /*display: block;*/
+  /*padding: 10px;*/
+ /* background: ghostwhite;*/
+  border: 0px solid grey;
+	width: 700px;
+  height: 650px;
+  margin-top: 2px;
+}
+
+#viz-genre {
+	display: flex;
+  flex-wrap: wrap;
+	flex-grow: 0;
+	justify-content: center;
+  /*display: block;*/
+  /*padding: 10px;*/
+ /* background: ghostwhite;*/
+  border: 1px solid grey;
+	width: 450px;
+  height: 450px;
+  margin-top: 20px;
+}
+
+#viz-genre-label {
+	display: flex;
+  flex-wrap: wrap;
+	flex-grow: 0;
+	justify-content: left;
+}
+
+.color-square {
+	width: 20px;
+	height: 20px;
+	background: red;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.scale-d3 {
+  height: 20px;
+  width: 900px;
+}
+
+.final-img {
+  width: 800px;
+}
+

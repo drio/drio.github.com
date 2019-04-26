@@ -1,0 +1,47 @@
+body {
+  background: white;
+  font: 16px/1.6em  Helvetica, sans-serif;
+  margin: 50px;
+  padding: 10px;
+}
+
+/*
+.header-img {
+  width:900px;
+  height: auto;
+}
+*/
+
+.main-container {
+  margin: auto;
+  width: 900px;
+  position: relative;
+  padding-right: 250px;
+}
+
+#table {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#viz-container {
+  /*display: block;*/
+  width: 100%;
+  border: 0px solid grey;
+  padding: 10px;
+}
+
+#attempt1 {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;  
+  flex-wrap: wrap;
+}
+
+.viz-entry {
+  background: white;
+  width: 400px;
+  height: 120px;
+  padding: 10px;
+  padding-bottom: 20px;
+}

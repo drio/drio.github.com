@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <title>drd</title>
+  <link rel="icon" href="/favicon.png">
+<link href="style.bundle.css" rel="stylesheet"></head>
+
+<div id="loading_screen">
+   Loading data <div><img id="image_loading" src="https://i.stack.imgur.com/MnyxU.gif"></div>
+</div>
+
+<div class="main-container">
+	<div class="time-container"> 
+      <span id="time"></span> 
+      <span id="users"> </span>
+      <a href="https://www.datavisualizationsociety.com"><img src="assets/logo.png" id="logo"></a>
+  </div>
+	<div class="histo-labels-container">
+		<div class="histo-label">Data</div>
+		<div class="histo-label">Society</div>
+		<div class="histo-label">Visualization</div>
+	</div>
+	<div id="viz-histogram-container">
+		<div id="histo_data"></div>
+		<div id="histo_society"></div>
+		<div id="histo_visualization"></div>
+	</div>
+  <svg class="map"></svg>
+</div>
+<script type="text/javascript" src="app.bundle.js"></script>

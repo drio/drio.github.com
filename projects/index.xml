@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on My New Hugo Site</title>
+    <link>https://drio.org/projects/</link>
+    <description>Recent content in Projects on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://drio.org/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fourier</title>
+      <link>https://drio.org/projects/fourier/</link>
+      <pubDate>Sun, 02 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/projects/fourier/</guid>
+      <description>My efforts to understand how the Fourier transform works.</description>
+    </item>
+    
+    <item>
+      <title>Next Gen Deck</title>
+      <link>https://drio.org/projects/next-gen-deck/</link>
+      <pubDate>Tue, 02 Jan 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/projects/next-gen-deck/</guid>
+      <description>A Dashboard to facilitate quality control for genomic data.</description>
+    </item>
+    
+    <item>
+      <title>Temp Sensor</title>
+      <link>https://drio.org/projects/temp-sensor/</link>
+      <pubDate>Fri, 01 Dec 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/projects/temp-sensor/</guid>
+      <description>Temperature and humidity sensor with Librato as a backend.</description>
+    </item>
+    
+    <item>
+      <title>OpenNest</title>
+      <link>https://drio.org/projects/nest/</link>
+      <pubDate>Mon, 02 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/projects/nest/</guid>
+      <description>A modest nest-like device using Arduino hardware.</description>
+    </item>
+    
+    <item>
+      <title>Euler</title>
+      <link>https://drio.org/projects/euler/</link>
+      <pubDate>Fri, 02 Dec 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/projects/euler/</guid>
+      <description>Solutions in Go and Python for some of the Euler challenges.</description>
+    </item>
+    
+    <item>
+      <title>Egjs</title>
+      <link>https://drio.org/projects/egjs/</link>
+      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/projects/egjs/</guid>
+      <description>Real time allele screening method for genomic data.</description>
+    </item>
+    
+    <item>
+      <title>Bio Brew</title>
+      <link>https://drio.org/projects/biobrew/</link>
+      <pubDate>Sun, 02 Nov 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/projects/biobrew/</guid>
+      <description>A tiny package manager for crucial Unix and Bioinformatics tools.</description>
+    </item>
+    
+    <item>
+      <title>Vim Markdown</title>
+      <link>https://drio.org/projects/vim-markdown/</link>
+      <pubDate>Tue, 12 Nov 2002 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/projects/vim-markdown/</guid>
+      <description>A vim plugin to render, view and sync up markdown from vim.</description>
+    </item>
+    
+    <item>
+      <title>Dnaism</title>
+      <link>https://drio.org/projects/dnaism/</link>
+      <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/projects/dnaism/</guid>
+      <description>Bringing the power of horizon charts to the genomic domain.</description>
+    </item>
+    
+  </channel>
+</rss>

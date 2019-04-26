@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://drio.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://drio.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>D3 core functionality review</title>
+      <link>https://drio.org/vizs/d3-article-num1/</link>
+      <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/vizs/d3-article-num1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Viz Society signups</title>
+      <link>https://drio.org/vizs/datavizso/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/vizs/datavizso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Viz Society slack stats</title>
+      <link>https://drio.org/vizs/dvs-c2/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/vizs/dvs-c2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fibonacci</title>
+      <link>https://drio.org/vizs/fibonacci/</link>
+      <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/vizs/fibonacci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bike gear ratios</title>
+      <link>https://drio.org/vizs/gear_ratios/</link>
+      <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/vizs/gear_ratios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>why</title>
+      <link>https://drio.org/why/</link>
+      <pubDate>Tue, 01 Jan 2019 09:44:22 -0500</pubDate>
+      
+      <guid>https://drio.org/why/</guid>
+      <description>Why should you hire me? Because you can trust me. Trust me to be honest enough to tell you if I can deliver value to your project or business. Trust me to deliver results in time. Trust me to communicate my progress and to understand what has to be done. Trust me to know that either.</description>
+    </item>
+    
+    <item>
+      <title>Verge</title>
+      <link>https://drio.org/talks/verge/</link>
+      <pubDate>Sun, 02 Dec 2018 12:09:34 -0500</pubDate>
+      
+      <guid>https://drio.org/talks/verge/</guid>
+      <description>Another talk I gave presenting dnasim.</description>
+    </item>
+    
+    <item>
+      <title>Dnaism</title>
+      <link>https://drio.org/talks/dnaism/</link>
+      <pubDate>Sun, 02 Dec 2018 12:09:32 -0500</pubDate>
+      
+      <guid>https://drio.org/talks/dnaism/</guid>
+      <description>In this talk I present dnasim.</description>
+    </item>
+    
+    <item>
+      <title>Asap</title>
+      <link>https://drio.org/talks/asap/</link>
+      <pubDate>Sun, 02 Dec 2018 12:09:17 -0500</pubDate>
+      
+      <guid>https://drio.org/talks/asap/</guid>
+      <description>In this talk I go over the ASAP paper which presents a smoothing technique for time series data.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://drio.org/about/</link>
+      <pubDate>Sun, 02 Dec 2018 09:44:22 -0500</pubDate>
+      
+      <guid>https://drio.org/about/</guid>
+      <description>When I am not building something on a computer, I like biking, running, swimming and outdoor sports in general. But I guess I should tell you about my CS background. Here we go&amp;hellip;
+   My first exposure to computers was in high school when my parents sent me to a programming boot camp when I was in high school. Basic was the introductory programming language they used in the course.</description>
+    </item>
+    
+    <item>
+      <title>Fourier</title>
+      <link>https://drio.org/projects/fourier/</link>
+      <pubDate>Sun, 02 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/projects/fourier/</guid>
+      <description>My efforts to understand how the Fourier transform works.</description>
+    </item>
+    
+    <item>
+      <title>Next Gen Deck</title>
+      <link>https://drio.org/projects/next-gen-deck/</link>
+      <pubDate>Tue, 02 Jan 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/projects/next-gen-deck/</guid>
+      <description>A Dashboard to facilitate quality control for genomic data.</description>
+    </item>
+    
+    <item>
+      <title>US Wind Energy</title>
+      <link>https://drio.org/vizs/us_wind/</link>
+      <pubDate>Sun, 03 Dec 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/vizs/us_wind/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temp Sensor</title>
+      <link>https://drio.org/projects/temp-sensor/</link>
+      <pubDate>Fri, 01 Dec 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/projects/temp-sensor/</guid>
+      <description>Temperature and humidity sensor with Librato as a backend.</description>
+    </item>
+    
+    <item>
+      <title>US Flights</title>
+      <link>https://drio.org/vizs/us_flights/</link>
+      <pubDate>Thu, 02 Nov 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/vizs/us_flights/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenNest</title>
+      <link>https://drio.org/projects/nest/</link>
+      <pubDate>Mon, 02 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/projects/nest/</guid>
+      <description>A modest nest-like device using Arduino hardware.</description>
+    </item>
+    
+    <item>
+      <title>Euler</title>
+      <link>https://drio.org/projects/euler/</link>
+      <pubDate>Fri, 02 Dec 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/projects/euler/</guid>
+      <description>Solutions in Go and Python for some of the Euler challenges.</description>
+    </item>
+    
+    <item>
+      <title>Egjs</title>
+      <link>https://drio.org/projects/egjs/</link>
+      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/projects/egjs/</guid>
+      <description>Real time allele screening method for genomic data.</description>
+    </item>
+    
+    <item>
+      <title>IMDB movies dataset</title>
+      <link>https://drio.org/vizs/cse512-week2-movies/</link>
+      <pubDate>Tue, 02 Dec 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/vizs/cse512-week2-movies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Antibiotics after world war II</title>
+      <link>https://drio.org/vizs/antibiotics/</link>
+      <pubDate>Sun, 02 Nov 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/vizs/antibiotics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bio Brew</title>
+      <link>https://drio.org/projects/biobrew/</link>
+      <pubDate>Sun, 02 Nov 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/projects/biobrew/</guid>
+      <description>A tiny package manager for crucial Unix and Bioinformatics tools.</description>
+    </item>
+    
+    <item>
+      <title>Vim Markdown</title>
+      <link>https://drio.org/projects/vim-markdown/</link>
+      <pubDate>Tue, 12 Nov 2002 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/projects/vim-markdown/</guid>
+      <description>A vim plugin to render, view and sync up markdown from vim.</description>
+    </item>
+    
+    <item>
+      <title>Dnaism</title>
+      <link>https://drio.org/projects/dnaism/</link>
+      <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/projects/dnaism/</guid>
+      <description>Bringing the power of horizon charts to the genomic domain.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://drio.org/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/cv/</guid>
+      <description>Curriculum Vitae  For a more detailed version of this document and the full list of Employment history, please click here. Also, if you want to read the prose version of my cv, check out my about page.    Education    1995-2003  Bachelor of Science in Computer Science, La Salle School of Engineering, Ramon Llull University, Barcelona, Spain.  Final Project: Building a mp3 player from scratch.</description>
+    </item>
+    
+  </channel>
+</rss>

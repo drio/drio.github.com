@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<title>drd vis: flights</title>
+<link href="style.bundle.css" rel="stylesheet"></head>
+
+<div id="loading_screen">
+   Loading data <div><img id="image_loading" src="https://i.stack.imgur.com/MnyxU.gif"></div>
+</div>
+
+<div id="main-container">
+  <div id="header">
+    Data based on <a
+    href="https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236&DB_Short_Name=On-Time">BTS</a>.
+    Map based on this <a href="https://bl.ocks.org/mbostock/7608400">code</a>
+    from @mbostock.  A <a href="https://drio.org">drio</a> thing.
+  </div>
+
+  <div id="console-container" class="section">
+    <h4>Message board </h4>
+    <div id="console"></div>
+  </div>
+
+  <div class="section">
+    <h4> Matrix of flights</h4>
+
+    <p class="section-text"> Each square is a flight. The color encodes the
+    delay associated with all the instances of that flight. <span
+    style="color:green">Greener</span> values indicate the flight arrives
+    early. <span style="color:red;">Red</span> values indicate the flight
+    arrives late. Hover over each flight to get details (message board) and the
+    location of the destination airport for the flight (Flight routes).</p>
+
+    <div id="matrix"> </div>
+  </div>
+  <div class="section" id="map-container">
+    <h4> Flight routes</h4>
+
+    <p class="section-text"> Hover over a cell to focus in a
+    particular flight. The matrix of flights will show all the flights for that
+    destination.</p>
+
+    <svg id="map" width="1000" height="600"></svg>
+  </div>
+</div>
+<script type="text/javascript" src="app.bundle.js"></script>

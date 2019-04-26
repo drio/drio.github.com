@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>drio scratch</title>
+  <link href="style.bundle.css" rel="stylesheet"></head>
+  <body>
+    <div class="main-container">
+      <!-- <img src="https://monosnap.com/file/aVCmSFTzc6zeXzQ5mnJq5SZWs8OveA.png" class="header-img"> -->
+      <!-- <img src="https://monosnap.com/file/JXUi5BjjO1qk4UDqmrMpLmH3c31WmD.png" class="header-img"> -->
+      <h2> CSE512 (Week1) </h2>
+      <p> I am taking the <a
+      href="https://courses.cs.washington.edu/courses/cse512/14wi/">cse512</a>
+      from Washington University. The instructor is <a
+      href="http://jheer.org/">Jeffrey Heer</a>, a regular contributor in
+      the DataViz field. I decided to post here my progress, with the hope to get
+      feedback and who knows, maybe motivate someone else to join me.
+
+      <p> In the first week, we had a practical and reading
+      assignments. See the class <a
+      href="https://courses.cs.washington.edu/courses/cse512/14wi/">site</a>
+      for the <a href="https://goo.gl/jZciRT">book</a>'s reference. I should warn
+      you, it is not an easy one to find. Yes, you can get it from <a href="https://goo.gl/jZciRT">Amazon</a> and pay 100$ but I find that a
+      bit excessive. You'll have more luck from your local University Library
+      (UT in my case). I couldn't take the book home, but I was able to make
+      digital copies of the first chapter. So much good stuff. If anyone out
+      there has any interest, I can write up a blog post summarizing my notes.
+
+      <p> It was a dense but interesting reading. I learned new terms that will
+
+      I'll use the book as a reference in the future for sure.
+
+      <p> The practical assignment involves creating a visualization for a
+      dataset. A very interesting dataset actually.  Read the assignment details
+      <a href="https://courses.cs.washington.edu/courses/cse512/14wi/a1.html">here</a>.
+
+      <h3>Design's description</h3>
+      <p> The first thing you notice as you start playing with the data is the wide range of
+      values you can have for the antibiotic's concentration to be effective.
+      The table does a decent job communicating the data, but I think my viz
+      allows users to consume the data with less cognitive effort.
+
+      <p> We want to be able to pick one of the antibiotics,
+      ideally the one that requires less concentration so we can save money
+      without compromising effectiveness. We may not have the most efficient
+      antibiotic and we may have to use the second best one.
+
+      <p> I wanted to use distances for my visual encodings since those are
+      processed faster by the human brain. But mapping the data directly will
+      not work here because of the wide range of values in the variables. To
+      solve that, instead of using linear mappings for my scales, I use
+      logarithmic scales so we the separation of the values are more meaningful
+      and in turn, help to communicate the data more effectively.
+
+      <h4>Improvements</h4>
+      <p>I am happy with the final result but there is room
+      for improvement. I would separate the horizontal location of the three
+      measurements so we make more clear collisions (two antibiotics that
+      require the same concentration). If we do that, we could move the text's labels
+      to the graph so we eliminate ink. I would definitely implement this if this was a
+      real project.
+
+      <p> I could add the units I am using on the axis.
+
+      <p> I could add some color to the visual element that encodes the gram
+      staining. I experimented with that but I found it hijacked some of the
+      attention from the meat of the dataset, the MCIs.
+
+      <p> Finally, there is plenty of room for improvement in the aesthetics
+      department, although I don't think I'd work on that since it would not
+      help make the visualization more effective, just more pretty.
+
+      <h3>The result</h3>
+
+      <div id="attempt1">
+      </div>
+    </div>
+  <script type="text/javascript" src="app.bundle.js"></script></body>
+</html>
+
+<!-- the benerable sdk -->
+<!-- <script src="src/js/librato.metrics.js"></script> -->

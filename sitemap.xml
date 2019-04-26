@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://drio.org/vizs/d3-article-num1/</loc>
+    <lastmod>2019-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/</loc>
+    <lastmod>2019-03-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/vizs/</loc>
+    <lastmod>2019-03-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/vizs/datavizso/</loc>
+    <lastmod>2019-03-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/vizs/dvs-c2/</loc>
+    <lastmod>2019-03-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/vizs/fibonacci/</loc>
+    <lastmod>2019-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/vizs/gear_ratios/</loc>
+    <lastmod>2019-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/why/</loc>
+    <lastmod>2019-01-01T09:44:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/talks/</loc>
+    <lastmod>2018-12-02T12:09:34-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/talks/verge/</loc>
+    <lastmod>2018-12-02T12:09:34-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/talks/dnaism/</loc>
+    <lastmod>2018-12-02T12:09:32-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/talks/asap/</loc>
+    <lastmod>2018-12-02T12:09:17-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/about/</loc>
+    <lastmod>2018-12-02T09:44:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/projects/fourier/</loc>
+    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/projects/</loc>
+    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/projects/next-gen-deck/</loc>
+    <lastmod>2007-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/vizs/us_wind/</loc>
+    <lastmod>2006-12-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/projects/temp-sensor/</loc>
+    <lastmod>2006-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/vizs/us_flights/</loc>
+    <lastmod>2006-11-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/projects/nest/</loc>
+    <lastmod>2006-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/projects/euler/</loc>
+    <lastmod>2005-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/projects/egjs/</loc>
+    <lastmod>2004-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/vizs/cse512-week2-movies/</loc>
+    <lastmod>2003-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/vizs/antibiotics/</loc>
+    <lastmod>2003-11-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/projects/biobrew/</loc>
+    <lastmod>2003-11-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/projects/vim-markdown/</loc>
+    <lastmod>2002-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/projects/dnaism/</loc>
+    <lastmod>2000-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/cv/</loc>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://drio.org/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

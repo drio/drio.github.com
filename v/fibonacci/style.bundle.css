@@ -1,0 +1,33 @@
+@import url(//fonts.googleapis.com/css?family=Pacifico|Srisakdi|PT+Serif|PT+Serif:b|PT+Serif:i|PT+Sans|PT+Sans:b);
+body {
+  background: #fcfcfa;
+  color: #333;
+  font-family: "PT Serif", serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+.grid {
+  stroke: lightGrey;
+}
+
+rect {
+  fill-opacity: 0.4;
+  fill: red;
+}
+
+#drio {
+  font-size: 18px;
+  position: absolute;
+  right: 200px; 
+  padding: 10px; 
+  top: 30px; 
+}
+
+#explanation {
+  font-size: 18px;
+  position: absolute;
+  padding: 10px; 
+  right: 200px; 
+}
+
