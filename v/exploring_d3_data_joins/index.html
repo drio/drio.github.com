@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+<head>
+  <title>drd</title>
+  <link rel="icon" href="/favicon.png">
+  <meta charset="utf-8">
+<link href="style.bundle.css" rel="stylesheet"></head>
+
+<body>
+
+<div id="thing">A <a href="https://drio.org">drio</a> thing.</div>
+
+<h3>Exploring selections and data binding in d3 (Part I)</h3> 
+
+<h4>Intro</h4> 
+
+<p> 
+This is an ongoing article where I explore a core functionality provided by 
+d3: selections and data binding. Why? I realized I didn't fully understand how it
+works and that was limiting the benefit I get from the library. 
+This is more to clarify my thoughts about the topic.
+</p>
+
+Let's start with the basics:
+
+<pre>
+<code class="javascript">const sel = select('body')
+    .selectAll('h2');</code></pre>
+
+<p> 
+The first part of the statement (<code>select('body')</code>) uses the select
+method from d3-selection package. This will return a new selection which is a
+javascript function (remember they are also objects) with all the selection 
+functionality attached to it. By functionality I mean a bunch of functions attached
+to this object. Exploring the selection object returned is informative.
+</p>
+
+<h4>Exploring selections and data binding in d3 (Part I)</h4> 
+
+<p> It is important to stop here for a second and review what constructs <a
+href="https://bost.ocks.org/mike/">Mike</a> is using to provide this
+functionality. He has a wonderful <a
+href="https://bost.ocks.org/mike/chart/">article</a> that covers this. I am
+going to go over it with my own words.  </p>
+
+<p> He uses a "configurable" function that returns another function. The inner
+function has access to all the config parameters we pass to the configurable
+function (via a <a href="http://jibbering.com/faq/notes/closures/">closure</a>).
+This function he returns, has functionality attached (setter/getter methods).
+Each of those "methods" return the function itself. Thanks to that we can
+chain calls together. 
+
+<p>Let's build a simple example that encapsulates the logic to add two numbers to
+solidify these concepts. 
+
+<pre>
+<code class="javascript">function calculator(opts={}) {
+  let {x = 0, y = 0} = opts;
+
+  function engine() {
+    return x+y;
+  }
+
+  engine.x = function (value) {
+    if (!arguments.length) return x;
+    x = value;
+    return engine;
+  }
+
+  engine.y = function (value) {
+    if (!arguments.length) return y;
+    y = value;
+    return engine;
+  }
+
+  return engine;
+}</code></pre>
+
+<p> Let's use that new piece of code we have just created. First, we call our new functions
+and provide the two numbers we want to add: <code>c = calculator({x:1, y:2}).</code> When we 
+execute the function, we assign the x and y values from the opts parameter (an object) to 
+the local variables x and y. After that, we create a function (<code>engine</code>) that
+encapsulates the logic we need (adding two numbers in this case). Then, we attach two setter
+and getter functions (methods) to our engine function. This logic checks for the input
+parameter (a number) and either sets a new value o returns the addend (x or y). In both cases, 
+we return the engine function. Because of that, we can do things like:
+</p>
+
+<pre><code class="javascript">c.x(100).y(200)() // 300</code></pre>
+
+<h4>Data binding</h4>
+
+<p>Excellent. We are ready to move on. Let's bring back the original d3 statement:</p>
+
+
+<pre>
+<code class="javascript">const sel = select('body')
+    .selectAll('h2');</code></pre>
+
+<p>
+We are chaining another select call (<code>.selectAll('h2')</code>) but at this 
+stage, we have already narrowed down the "selection space" to children of the body
+element. That's because we are running the selection off of the first selection
+result (a selection object).
+</p>
+
+<p>
+Now that we have selected the elements we are interested on, we can go ahead and
+preform data binding. That's linking our data to the elements we have selected.
+We do it by using the property <code>data</code> from our selection object.
+</p>
+
+<pre><code class="javascript">const sel = select('body')
+    .selectAll('h2')
+    .data(data);</code></pre>
+
+<p> <code>data</code> is an array of values. Those values will be assigned to
+the selected elements. But, what happens if we have missing elements? Or what
+happens if we have more elements than elements in our data array? The data
+method in our selection returns an object that knows how to deal with that. It
+does so by providing methods (operations) on these different cases.
+<code>data()</code> returns the elements that exist and are linked to our
+dataset. That's called the update selection. We can access the other selections
+via <code>enter()</code> and <code>exit()</code>.
+<code>enter()</code> gives us access to elements that do not exist yet but for
+which we have data and <code>exit()</code> yields elements without data associated
+to it. Let's write some code to exercise these concepts.</p>
+
+<p>This is a helper function that executes the data binding and exercises
+the enter, update, and remove() states:</p>
+
+<pre><code class="javascript">function basicDataJoin(selector, data) {
+  const sel = select(selector)
+    .selectAll('span')
+    .data(data);
+
+  sel.text(d => d)
+    .attr('class', 'update');
+
+  sel.enter()
+    .append('span')
+    .text(d => d)
+      .attr('class', 'enter');
+
+  sel.exit().remove();
+}</code></pre>
+
+<p>Now, let's run <code>  basicDataJoin('#numbers_example_1', ['a', 'b',
+'c']);</code>.  New elements have the <span style="color:salmon">salmon
+color</span> and new  elements use <span style="color:darkred">dark red</span>.
+</p>
+
+<div id="numbers_example_1" class="numbers"></div>
+
+<p>Excellent, all our new elements are there and they are properly bind to our data. Let's
+now call the same function twice so we exercise the enter and remove states:<p>
+
+<pre><code class="javascript">basicDataJoin('#numbers_example_2', ['a', 'b', 'c']);
+basicDataJoin('#numbers_example_2', ['a', 'x', 'y']);</code></pre>
+
+<p>And we get:</p>
+
+<div id="numbers_example_2" class="numbers"></div>
+
+<p> That may look strange to you. It seems those are existing letters/data?
+What is happening here is that the first element is assigned to the first
+datum, the second element to the second datum and so on. We are <a
+href="https://github.com/d3/d3-selection/blob/master/README.md#joining-data">joining
+by index</a>.  But d3 provides alternatives to perform this binding. We can
+provide a function that evaluates on each element we select. The value
+returned by that function is what we will use to join the elements and datums.
+Let's write another helper function: </p>
+
+<pre><code class="javascript">function advanceDataJoin(selector, data) {
+  const f = (d) => d.letter;
+  const sel = select(selector).selectAll('span').data(data, f);
+
+  sel.text(f)
+    .attr('class', 'update');
+
+  sel.enter()
+    .append('span')
+    .text(f)
+    .attr('class', 'enter');
+
+  sel.exit().remove();
+}</code></pre>
+
+<p>Let's run that now like this:</p>
+
+<pre><code class="javascript">advanceDataJoin('#numbers_example_3', [ {letter: 'a'}, {letter:'b'} ]);
+advanceDataJoin('#numbers_example_3', [ 
+  {letter:'b'}, {letter: 'c'} 
+]);</code></pre>
+
+<p>
+And that's what we wanted. Now, after the second call, a is gone b
+is part of the update selection and c is part of the enter selection.
+</p>
+
+<div id="numbers_example_3" class="numbers"></div>
+
+<script type="text/javascript" src="app.bundle.js"></script></body>
