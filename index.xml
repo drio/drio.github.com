@@ -6,10 +6,19 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://drio.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dashboard redesign</title>
+      <link>https://drio.org/vizs/dash-redesign/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/vizs/dash-redesign/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>D3 core functionality review</title>
@@ -226,6 +235,15 @@
       
       <guid>https://drio.org/cv/</guid>
       <description>Curriculum Vitae  For a more detailed version of this document and the full list of Employment history, please click here. Also, if you want to read the prose version of my cv, check out my about page.    Education    1995-2003  Bachelor of Science in Computer Science, La Salle School of Engineering, Ramon Llull University, Barcelona, Spain.  Final Project: Building a mp3 player from scratch.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://drio.org/dash_redesign/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://drio.org/dash_redesign/</guid>
+      <description>For this project, the customer had a set of dashboards created using microsoft&#39;s powerBI tool. They use the dashboards to communicate the results from different analytical pipelines. The project involved two main aspects: first, building a system to automatically consume data from those pipeline and two, redesign the different dashboards to communicate the data more effectively.  I am planning on writing a separate entry to discuss my thought process on the redesign of the different dashboards but for now, here you have the before and after of one of the dashboards I worked on.</description>
     </item>
     
   </channel>
