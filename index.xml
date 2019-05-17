@@ -243,7 +243,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://drio.org/dash_redesign/</guid>
-      <description>For this project, the customer had a set of dashboards created using microsoft&#39;s powerBI tool. They use the dashboards to communicate the results from different analytical pipelines. The project involved two main aspects: first, building a system to automatically consume data from those pipeline and two, redesign the different dashboards to communicate the data more effectively.  I am planning on writing a separate entry to discuss my thought process on the redesign of the different dashboards but for now, here you have the before and after of one of the dashboards I worked on.</description>
+      <description>For this project, the customer had a set of dashboards created using Microsoft&#39;s powerBI tool. They use the dashboards to communicate results from different analytical pipelines. The project involved two main aspects: first, building a system to automatically consume data from those pipelines and two, redesign the different dashboards to expose the data more effectively.  I am planning on writing a separate entry to discuss my thought process on the redesign of the different dashboards but, for now, here you have the before and after of one of the dashboards I worked on.</description>
     </item>
     
   </channel>
